@@ -20,6 +20,10 @@ Self-hosting LLMs in 2025/2026 &mdash; Ollama, vLLM, llama.cpp, TGI, SGLang and 
 | 10 | [Production Patterns for Local LLM Serving](https://brendanjameslynskey.github.io/Local_LLM_10_Production/) | live | Routing, prefix &amp; semantic caching, speculative decoding, observability, SLOs, rollouts, cost accounting, SLO planner. |
 | 11 | [Deploying on NVIDIA GPUs](https://brendanjameslynskey.github.io/Local_LLM_11_NVIDIA_GPUs/) | live | Architectures, memory, multi-GPU, ganging; NVLink/NVSwitch/PCIe P2P/IOMMU; MIG; Ollama/vLLM nuances per GPU class. |
 
+## Related
+
+**Related site:** [Numerics Explained](https://numerics-explained.vercel.app/) ([code](https://github.com/BrendanJamesLynskey/numerics-explained)) is an interactive companion to this series: number formats, rounding and quantisation for ML, in 10 chapters each built around an animation computed by a bit-exact numerics library: bits to numbers, rounding, accumulation error, the formats zoo (FP8, BF16, MX), quantisation basics, activation outliers (LLM.int8(), SmoothQuant), GPTQ, AWQ and NF4, KV-cache quantisation measured on a live tiny transformer, and quantisation in hardware. Its chapters link the matching slides of the Local LLM series, Quantization (07) above all.
+
 ## Where this fits
 
 Part of the [LLMs hub](https://github.com/BrendanJamesLynskey/LLMs) &mdash; an index of presentation series for AI/LLM engineers.
