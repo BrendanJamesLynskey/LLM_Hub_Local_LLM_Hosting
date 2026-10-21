@@ -1,3 +1,7 @@
+<!-- portfolio-strip:start (brief 40) -->
+<sub>**Brendan Lynskey** · [Portfolio home](https://brendanjameslynskey.github.io/) · [Interactive sites](https://brendanjameslynskey.github.io/#sites)</sub>
+<!-- portfolio-strip:end -->
+
 # Local LLM Hosting
 
 Self-hosting LLMs in 2025/2026 &mdash; Ollama, vLLM, llama.cpp, TGI, SGLang and friends, plus Docker, multi-GPU, quantisation, determinism, and production patterns.
